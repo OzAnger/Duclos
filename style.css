@@ -5,7 +5,7 @@ body {
 }
 
 .arrow-btn {
-    font-size: 5.5rem;
+    font-size: 40rem;
     text-decoration: none;
     padding: 10px 20px;
     display: inline-block;
@@ -16,6 +16,7 @@ body {
     justify-content: center;
     gap: 40px;
 }
+
 
 
 
