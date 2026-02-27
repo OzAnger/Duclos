@@ -6,9 +6,9 @@ body {
 
 /* Arrow buttons scaled to ~15% of the viewport */
 .arrow-btn {
-    font-size: 30vw;          /* size of the arrow symbol */
-    width: 50vw;              /* button width = 15% of page width */
-    height: 50vw;             /* button height = 15% of page width */
+    font-size: 12vw;          /* size of the arrow symbol */
+    width: 15vw;              /* button width = 15% of page width */
+    height: 15vw;             /* button height = 15% of page width */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +30,7 @@ body {
     height: auto;
     display: block;
 }
+
 
 
 
