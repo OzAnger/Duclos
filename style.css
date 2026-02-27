@@ -5,16 +5,16 @@ body {
 }
 
 .arrow-btn {
-    font-size: 400rem;
+    font-size: 100rem;
     text-decoration: none;
-    padding: 80px 80px;
+    padding: 10px 10px;
     display: inline-block;
 }
 
 .nav-arrows {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 .full-image {
@@ -22,6 +22,7 @@ body {
     height: auto;
     display: block;
 }
+
 
 
 
