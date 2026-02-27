@@ -4,17 +4,25 @@ body {
     padding-top: 50px;
 }
 
+/* Arrow buttons scaled to ~15% of the viewport */
 .arrow-btn {
-    font-size: 2rem;
+    font-size: 12vw;          /* size of the arrow symbol */
+    width: 15vw;              /* button width = 15% of page width */
+    height: 15vw;             /* button height = 15% of page width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
-    padding: 5px 5px;
-    display: inline-block;
+    background: #eee;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
 }
 
 .nav-arrows {
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 5vw;                 /* spacing also scales with screen */
 }
 
 .full-image {
@@ -22,6 +30,8 @@ body {
     height: auto;
     display: block;
 }
+
+
 
 
 
