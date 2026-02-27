@@ -10,7 +10,7 @@
   const url = "Programme_Funerailles_JRD.pdf";
 
   pdfjsLib.getDocument(url).promise.then(pdf => {
-    pdf.getPage(1).then(page => {
+    pdf.getPage(2).then(page => {
       const scale = 1.5;
       const viewport = page.getViewport({ scale });
 
@@ -35,6 +35,7 @@
 
 </body>
 </html>
+
 
 
 
