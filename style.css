@@ -5,9 +5,9 @@ body {
 }
 
 .arrow-btn {
-    font-size: 40rem;
+    font-size: 400rem;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 80px 80px;
     display: inline-block;
 }
 
@@ -22,6 +22,7 @@ body {
     height: auto;
     display: block;
 }
+
 
 
 
