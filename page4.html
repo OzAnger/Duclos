@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Page 4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <canvas id="pdf-canvas"></canvas>
+    <script>
+  const url = "Programme_Funerailles_JRD_2 columns.pdf";
+
+  pdfjsLib.getDocument(url).promise.then(pdf => {
+    pdf.getPage(3).then(page => {
+      const scale = 1.1;
+      const viewport = page.getViewport({ scale });
+
+      const canvas = document.getElementById("pdf-canvas");
+      const context = canvas.getContext("2d");
+      canvas.height = viewport.height;
+      canvas.width = viewport.width;
+
+      page.render({
+        canvasContext: context,
+        viewport: viewport
+      });
+    });
+  });
+</script>
+
+</head>
+<body>
+
+<!-- Back arrow -->
+<a class="arrow-btn" href="page3.html">⬅️</a>
+
+</body>
+</html>
