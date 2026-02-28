@@ -11,7 +11,7 @@
 
   pdfjsLib.getDocument(url).promise.then(pdf => {
     pdf.getPage(2).then(page => {
-      const scale = 1.5;
+      const scale = 1.9;
       const viewport = page.getViewport({ scale });
 
       const canvas = document.getElementById("pdf-canvas");
@@ -38,6 +38,7 @@
 
 </body>
 </html>
+
 
 
 
